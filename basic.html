@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="basic.css" />
+    <title>Basic CSS</title>
+    <style>
+      .container {
+        background-color: #a8cfb06c;
+        /* background-image: url(./calico-cat.jpg);
+        background-size: 300px; */
+        border: 2px dashed #9d9d9d;
+        margin: 50px;
+        padding: 50px;
+      }
+
+      h3 {
+        color: rgb(234, 113, 113);
+      }
+
+      .car {
+        color: rgb(27, 184, 105);
+        font-style: italic;
+      }
+
+      .car:hover {
+        color: rgb(15, 143, 79);
+      }
+
+      #porsche {
+        color: rgb(192, 38, 38);
+      }
+
+      p::first-line {
+        color: rgb(166, 166, 47);
+        font-variant: small-caps;
+      }
+      /* css selector priority:
+        inline style > id > class > element tag
+
+        ! maksimalin di class, kalau sudah rumit dan bentrok
+        baru masuk dan bikin ke id
+      */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="color: rgb(113, 113, 234)">Hola Amigo</h2>
+      <h3>Hola Todos</h3>
+      <h4>Hola Mujeres</h4>
+      <p class="car">el nuevo bmw</p>
+      <p class="car" id="porsche">el nuevo porsche</p>
+      <p>
+        soy Papa <br />
+        tu Mama <br />
+        el Mujer <br />
+        ella Mujeres
+      </p>
+    </div>
+  </body>
+</html>

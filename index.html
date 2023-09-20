@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purwadhika</title>
+  </head>
+  <body>
+    <p>My cat is very adorable</p>
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <hr />
+    this is row 1 <br />
+    this is row 2 <br />
+    <hr />
+    <!-- this is comment -->
+    <b>this is bold</b><br />
+    <strong>strong</strong><br />
+    <i>italic</i><br />
+    <em>emphasized</em><br />
+    <mark>marked</mark><br />
+    <small>small</small><br />
+    <del>deleted</del><br />
+    <ins>inserted</ins><br />
+    <sub>subscript</sub><br />
+    <sup>superscript</sup><br />
+    <hr />
+    <h3>Shopping List:</h3>
+    <ul>
+      <li>Brown rice</li>
+      <li>Olive oil</li>
+      <li>Sugar</li>
+      <li>Oat milk</li>
+    </ul>
+    <hr />
+    <h3>Purwadhika Grade Ranking:</h3>
+    <ol>
+      <li>Jack</li>
+      <li>Beth</li>
+      <li>Andy</li>
+      <li>Jessie</li>
+    </ol>
+    <!-- Table -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Birthdate & Place</th>
+      </tr>
+      <tr>
+        <td>Jesse</td>
+        <td>Madrid, 18 October 2000</td>
+      </tr>
+    </table>
+    <!-- T2, colspan > merge row ? -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Birthdate & Place</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <center>Jack</center>
+        </td>
+      </tr>
+    </table>
+    <!-- T3, rowspan > merge column ? -->
+    <table>
+      <tr>
+        <th rowspan="2">Lisbon</th>
+        <td>A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+    </table>
+    <!-- Anchor Tag -->
+    <p>
+      <a href="https://www.google.com">Go to Google</a>
+    </p>
+    <!-- Images tag -->
+    <figure>
+      <img src="./calico-cat.jpg" alt="calico cat" width="400" />
+      <figcaption>my calico cat</figcaption>
+    </figure>
+    <figure>
+      <img
+        src="https://www.azpetvet.com/wp-content/uploads/AdobeStock_503976678-scaled.jpeg"
+        alt=""
+        width="400"
+      />
+      <figcaption>my tortie cat</figcaption>
+    </figure>
+    <!-- Form HTML, input -->
+    <form action="">
+      <input type="text" />
+      <input type="password" />
+      <input type="file" name="" id="" />
+      <input type="checkbox" />
+      <input type="radio" /> <br />
+      <input type="date" />
+      <input type="number" min="1" max="10" />
+      <input type="submit" value="OK" />
+      <textarea cols="20" rows="3"></textarea>
+      <!-- ada banyak input:type, coba2 sendiri -->
+    </form>
+    <hr />
+    <!-- Button tag -->
+    <button type="button">OK</button>
+    <button type="button" onclick="doSomething();">Apply</button>
+    <hr />
+    <!-- Select Forms -->
+    <p>What's your favorite color?</p>
+    <select>
+      <option>Maroon</option>
+      <option>Navy</option>
+      <option>Beige</option>
+    </select>
+    <p>What's your favorite food?</p>
+    <select>
+      <option>Chicken & rice</option>
+      <option selected>Pizza</option>
+      <option>Sandwich</option>
+    </select>
+    <hr />
+    <!-- Label-->
+    <p>
+      <label for="user">Username :</label>
+      <input type="text" name="user" />
+    </p>
+    <p>
+      <label for="pass">Password :</label>
+      <input type="password" name="pass" />
+    </p>
+    <!-- Fieldset & Legend tag -->
+    <fieldset>
+      <legend>Data</legend>
+      <p>
+        <label for="user">Username :</label>
+        <input type="text" name="user" />
+      </p>
+      <p>
+        <label for="pass">Password :</label>
+        <input type="password" name="pass" />
+      </p>
+    </fieldset>
+    <!-- Div -->
+    <div>Division 1</div>
+    <div>Division 2</div>
+  </body>
+</html>
