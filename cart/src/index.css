@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+header {
+  border-bottom: solid 1px #DDE6EF;
+}
+
+.logo {
+  color: #03AC0E;
+}
+
+.contents i {
+  font-size: 20px;
+}
