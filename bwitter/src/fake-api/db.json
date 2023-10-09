@@ -23,6 +23,12 @@
       "email": "nella@mail.com",
       "password": "nella123",
       "id": 5
+    },
+    {
+      "name": "hadi",
+      "email": "hadi@gmail.com",
+      "password": "hadi123",
+      "id": 6
     }
   ],
   "tweets": [
