@@ -1,5 +1,6 @@
 import { Counter } from "./components/counter";
 import { Home } from "./components/home";
+import { MyComponent } from "./components/testing";
 
 function App() {
   // cara nyimpen di local storage, rata2 website pakai local storage
@@ -13,10 +14,11 @@ function App() {
 
   return (
     <div>
-      <div>Ini Home</div>
+      {/* <div>Ini Home</div>
       <button onClick={onStorage}>Storage</button>
       <Counter />
-      <Home />
+      <Home /> */}
+      <MyComponent />
     </div>
   );
 }
